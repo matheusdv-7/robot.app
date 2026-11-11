@@ -1,0 +1,37 @@
+# Android Studio and IntelliJ
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local Android configuration
+local.properties
+
+# Signing and secrets
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+
+# Native builds
+.cxx/
+.externalNativeBuild/
+
+# Captures and generated outputs
+captures/
+*.apk
+*.aab
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

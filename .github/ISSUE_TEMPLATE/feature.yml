@@ -1,0 +1,39 @@
+name: Funcionalidade
+description: Propor uma nova funcionalidade para o WELLBOT Mobile
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto
+      description: Qual necessidade esta funcionalidade atende?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Resultado esperado
+      description: Descreva o comportamento esperado sem incluir dados sensíveis.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critérios de aceite
+      description: Liste condições objetivas para considerar a tarefa concluída.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área principal
+      options:
+        - Interface Android
+        - MQTT e JSON
+        - TCP
+        - Infraestrutura e ambiente
+        - Documentação
+    validations:
+      required: true

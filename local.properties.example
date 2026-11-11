@@ -1,0 +1,6 @@
+# Copie para local.properties e ajuste apenas na sua máquina.
+sdk.dir=C\:\\Users\\SEU_USUARIO\\AppData\\Local\\Android\\Sdk
+
+# Também pode ser informado pela linha de comando:
+# ./gradlew assembleDebug -PWELLBOT_MQTT_BROKER_URI=ssl://broker.exemplo:8883
+WELLBOT_MQTT_BROKER_URI=
